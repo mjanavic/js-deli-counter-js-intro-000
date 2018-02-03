@@ -29,5 +29,6 @@ function currentLine(line) {
         result += ((i + 1) + '. ' + line[i]);
       }
     }
+    return result;
   }
 }
