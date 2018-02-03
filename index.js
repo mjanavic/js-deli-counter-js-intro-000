@@ -6,3 +6,8 @@ function takeANumber(katzDeliLine, name) {
     }
   }
 }
+function nowServing(katzDeliLine) {
+  var serving = katzDeliLine[0];
+  katzDeliLine.shift();
+  return 'Currently serving ' + serving;
+}
