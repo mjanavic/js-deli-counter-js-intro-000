@@ -24,9 +24,9 @@ function currentLine(line) {
   } else {
     for(var i = 0; i <line.length; i++) {
       if(i < (line.length - 1)) {
-        result += (i + 1) + '. ' + line[i] + ', ';
+        result += ((i + 1) + '. ' + line[i] + ', ');
       } else {
-        result += (i + 1) + '. ' + line[i];
+        result += ((i + 1) + '. ' + line[i]);
       }
     }
   }
